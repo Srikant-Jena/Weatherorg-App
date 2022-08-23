@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT weatherProject.wsgi:application
+web gunicorn weatherProject.wsgi:application --log-file -
