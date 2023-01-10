@@ -122,7 +122,7 @@ MEDIA_URL = '/images/'
 
 
 #deploy to  vercel /static working directory
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build', 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build', 'static')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # Default primary key field type
