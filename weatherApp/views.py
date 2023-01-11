@@ -24,7 +24,7 @@ def index(request):
             'description': str(list_of_data['weather'][0]['description']),
             'icon': list_of_data['weather'][0]['icon'],
         }
-        print(data)
+        print(data) 
     else:
         data = {}
 
